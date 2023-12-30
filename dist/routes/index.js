@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const course_route_1 = require("../modules/course/course.route");
+const category_route_1 = require("../modules/category/category.route");
+const review_route_1 = require("../modules/review/review.route");
+const user_route_1 = require("../modules/user/user.route");
+const auth_route_1 = require("../modules/auth/auth.route");
+const course_controller_1 = require("../modules/course/course.controller");
+const router = (0, express_1.Router)();
+router.use("/auth", user_route_1.UserRoutes);
+router.use("/auth", auth_route_1.AuthRoutes);
+router.use("/courses", course_route_1.CourseRoutes);
+router.use("/course/best", course_controller_1.CourseControllers.getBestCourse);
+router.use("/categories", category_route_1.CategoryRoutes);
+router.use("/reviews", review_route_1.ReviewRoutes);
+exports.default = router;
