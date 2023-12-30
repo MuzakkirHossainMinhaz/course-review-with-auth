@@ -17,7 +17,7 @@ app.use("/api", router);
 app.get("/", (req: Request, res: Response) => {
     res.status(200).json({
         success: true,
-        message: "Welcome to The Course Review server!",
+        message: "Welcome to the Course Review With Auth server!",
     });
 });
 
