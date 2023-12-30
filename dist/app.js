@@ -18,7 +18,7 @@ app.use("/api", routes_1.default);
 app.get("/", (req, res) => {
     res.status(200).json({
         success: true,
-        message: "Welcome to The Course Review server!",
+        message: "Welcome to the Course Review With Auth server!",
     });
 });
 // 404 route
