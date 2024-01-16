@@ -223,7 +223,7 @@ The application implements proper error handling throughout, using a global erro
 4. Setup Environment Variables
 
     ```bash
-    // create a `.env` file in the rood directory and add the following variables
+    // create a `.env` file in the root directory and add the following variables
 
     PORT=5000 or as_your_wish
     NODE_ENV=DEVELOPMENT
