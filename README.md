@@ -205,13 +205,13 @@ The application implements proper error handling throughout, using a global erro
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/Porgramming-Hero-web-course/l2b2a4-course-review-with-auth-MuzakkirHossainMinhaz.git
+    git clone https://github.com/MuzakkirHossainMinhaz/course-review-with-auth.git
     ```
 
 2. Navigate to the project directory
 
     ```bash
-    cd l2b2a4-course-review-with-auth-MuzakkirHossainMinhaz
+    cd course-review-with-auth
     ```
 
 3. Install dependencies
@@ -253,7 +253,6 @@ We welcome contributions! If you want to contribute to this project, please foll
 
 ## About the Author
 
--   Muzakkir Hossain Minhaz
 -   [github.com/MuzakkirHossainMinhaz](github.com/MuzakkirHossainMinhaz)
 -   [linkedin.com/in/muzakkir-hossain-minhaz](linkedin.com/in/muzakkir-hossain-minhaz)
 
