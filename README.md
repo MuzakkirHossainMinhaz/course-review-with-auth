@@ -2,7 +2,7 @@
 
 This project is a Course Review Application built using TypeScript, Express.js, and MongoDB with Authentication/Authorization. It provides a platform to manage courses, categories, and reviews with robust authentication, authorization, and user related information. The application follows a specific technology stack and includes error handling, validation, and various endpoints for creating, updating, and retrieving data.
 
-**API Documentation** [Course Review with Auth](https://documenter.getpostman.com/view/27686738/2s9YsDjaKo) [using [Postman](https://app.postman.com)].
+**API Documentation** [Course Review with Auth](https://documenter.getpostman.com/view/39200825/2sAYkANgbD) [using [Postman](https://app.postman.com)].
 
 ## Table of Contents
 
